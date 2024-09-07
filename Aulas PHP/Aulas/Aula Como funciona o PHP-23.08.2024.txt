@@ -1,0 +1,6 @@
+Aula Como funciona o PHP-23/08/2024
+
+Na parte client-side e server-side funciona da seguinte maneira:
+
+o seu computador por exemplo pesquisa o nome do site, que o seu computador vai para um servidor DNS e ele converte o domínio  em um endereço IP. E assim o PC procura no servidor que contem arquivos e manda os para seu computador em forma de site. Porem no server-side existe as linhas de código <?
+onde seu computador não poderá interpretar. Aí, antes de enviar estes arquivos <? tem um interpretador PHP que busca os dados  num banco de dados, processa esses dados e envia para seu computador em forma de HTML e CSS.

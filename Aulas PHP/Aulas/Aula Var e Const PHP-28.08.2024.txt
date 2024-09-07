@@ -1,0 +1,34 @@
+ <?php
+  $Nome = "Caua"; //No PHP nao exixtemm instanciar uma var.
+  echo "Muito prazer <b>$Nome</b> <BR >";
+
+  const NOME = "Caua"; //O const ja tem que instanciar, usando const. Tambem nao é possivel usar $NOME quando for chamar o const em algum lugar do codigo, funciona apenas usando o nome do const sozinho. Exemplo: NOME 
+
+  echo "Nome com const: <b>" . NOME . "</b  >";
+
+  /*Regras para identificadores: 
+  1-Var sempre comeca com $
+  2- A Var pode conter caracter, num, letra ou _
+  3-Aceita a-z A-Z 0-9 e _
+  4-Aceita letras com acento
+  5-Tem case sensitive
+  6-Nomes especiais nao podem ser usados como var. Exemplo: $this
+  */
+
+  /* Boas praticas para instanciar nomes
+  1-Nomes faceis e claros
+  2-Evite nomes muito curtos ou longos
+  3-Defina um padrao de nomeacao
+  4-Para const, use letras maiusculas, e para var, minusculas
+  5-Use camelCase para metodos e atributos
+  6-use SNAKE_CASE para nomear constantes
+
+  camelCase -> a cada palavra usa a primeira letra em maiuscula
+  (NomeDoFornecedor)
+  
+  SNAKE_CASE -> tudo em minusculo e a cada palavra o uso do _
+  (nome_do_fornecedor)
+  
+  !NAO EXISTE QUAL É MELHOR, vai de voce mesmo que decide. eu por sinal acho que o SNAKE_CASE deixa a var ou const mais legivel.
+  */ 
+  ?>

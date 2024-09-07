@@ -1,0 +1,6 @@
+Aula Historia do PHP-19/08/2024
+Começou em 1994, criado por Rasmus Lerdof. Ele também trabalhou no Apache (software transformador de computadores em servidores) e MySQL (gerenciador de Banco de Dados)
+Lerdof tinha uma page e queria saber quantas pessoas visitavam seu site. Ele crio com ajuda da linguagem C um CGI, chamado de Personal Home Page (PHP). 
+Em 95, ele lancou oficialmente o PHP 1.0, PHP Tools. Em 96 ele lanca o PHP 2.0, que é o PHP FI(Personal Home Page Form Interpreter). Depois ele torna o PHP Open Source (Código aberto para modificacao). 
+Em 98 dois rapazes de Israel veem que o Código Fonte do PHP não atende todos os requisitos. Foi ai que eles melhoraram o PHP, o tornando PHP 3.0 e o nome Personal Home Page muda para PHP Hypertext Preprocessor.
+Os dois rapazes criam uma empresa chamada Zeend. Uma empresa que programa o PHP ate hoje.
