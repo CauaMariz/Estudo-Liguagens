@@ -1,0 +1,98 @@
+Curso de JAVA
+Aula 02 -  Como o Java funciona?
+
+JRE (Java Runtime Environment) -> Quem quer programar em Java
+JDK (Java Development Kit) -> Quem quer usar o Java
+
+Aula 04 - Primeiro programa em Java
+
+Primeiro de tudo, precisamos criar uma classe: 
+
+public class NomeDaClasse{}
+
+Depois criar o método principal:
+
+public static void main (String [] args) {} -> esse método vai dentro da classe
+
+Dentro desse método principal vai o nosso programa que escreve algo na tela: 
+System.out.print("Hello World")
+
+O Java e case sensitive, ou seja, não é qualquer coisa que pode-se escrever com letra minúscula ou maiúscula. Exemplo:
+
+Para classes: CamelCase -> MinhaClasse
+Para métodos, atributos e variáveis: snakeCase -> meuMetodo
+Para pacotes: tudo minúsculo -> meupacote
+Para constantes: tudo maiúsculo -> MINHA_CONSTANTE
+
+Aula 06 - Tipos primitivos e manipulação de dados
+ 
+Em java há três formas de declarar variáveis:
+
+Inteiro:
+int num = 5;
+int num = (int) 5; -> Tipo typecast
+Integer num = new Integer(5); -> O Integer é uma classe, e o new está atribuindo um valor a essa classe. Tipo Wrapper Class
+
+O tipo int ocupa um valor de ate 2.147.483M e se vc quiser um valor maior que isso use o tipo long, que ocupa ate 2^63.
+
+Quebrado: 
+Float num = 5.6f;
+Float num = (float) 5.6;
+ou
+Double num = 5.6;
+//O double é mais preciso que o float, porem ocupa mais espaço na memoria
+
+String:
+String letra = "s";
+char letra = "s";
+//char ocupa apenas uma letra e não é uma classe, diferente de String
+
+
+Lógico:
+
+Boolean casado = true;
+
+Manipulação de dados:
+
+Para mostrar determinadas casas decimais:
+System.out.printf("A nota é %.2f" , nota); Esse %.2f diz que a nota mostrada vai ate duas casas decimais. Ou então no lugar de printf usar format
+
+O Java não possui método de entrada, por isso precisamos usar uma biblioteca:
+
+Scanner nomeVar = new Scanner(System.in);
+//Aqui eu já criei a variável que permite o user usar o teclado
+Agora vamos armazenar este valor em uma variável:
+String nome = teclado.nextLine(); -> o nextLine() é para strings
+para outros tipos basta usar-> nextTipo().
+
+Converter dados:
+
+string para int
+String num = "34";
+
+int num2 = Integer.parseInt(num);
+
+int para string:
+
+int num = 40;
+String num2 = Integer.toString(num); 
+
+Aula 07 - Operadores aritméticos e classe Math
+
+Classe Math:
+Math.pow(5,6) -> 5 elevado a 6
+Math.sqrt(25) -> raiz quadrada de 25
+Math.floor(5.6) -> arredonda para baixo
+Math.ceil(5.6) -> arredonda para cima
+Math.round(5.6) -> arredonda da maneira tradicional
+Math.random() -> gera um numero random entre 0 e 1 
+ 
+Maneiras de gerar números aleatórios:
+
+Maneira 1:
+int num = (int) (Math.random() * numFinal) + numInicial;
+
+Maneira 2:
+Random num = new Random();
+
+int numeroInteiro = random.nextInt(numeroFinalInteiro - numeroInicialInteiro + 1) + numeroInicialInteiro;
