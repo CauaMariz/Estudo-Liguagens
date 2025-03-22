@@ -1,0 +1,70 @@
+FrameWork Angular
+
+Ao iniciar um projeto com angular usando ng new nome-projeto o angular  cria a pasta desse projeto. Dentro dessa pasta tem o arquivo chamado angular.json, onde abriga configurações do app em geral.
+
+package.json scripts para rodar o projeto
+tsconfig.json abriga as configurações do typescript
+tsconfig.app.json abriga as configurações do typescript para o app
+tsconfig.spec.json abriga as configurações do typescript para o local de teste do projeto
+
+pasta public -> abriga as images do app
+
+src -> abriga os códigos fontes do projeto
+
+pasta app -> abriga os componentes do projeto
+
+
+Executar o projeto:
+
+npm run start
+
+
+Criar um componente:
+
+No cmd: ng generate component components/nome componente
+
+Dentro dessa pasta que criamos, há arquivos:
+
+spac: abriga códigos para testar o componente
+.ts: abriga a parte logica do componente, e nos que fazemos essa logica, na classe: 
+
+export class NomeComponente{}
+
+porem, essa classe so funciona para o componente pois acima há o código @Component({}) Nessa classe há um array chamado imports: [] que se eu quiser usar algo importado no meu componente, eu coloco dentro desse imports
+
+
+Usando componentes:
+
+Abrir o arquivo app.component.ts do projeto, ir em imports e add o componente
+Depois ir no app.component.html e add a tag do componente, no caso seria assim:
+<nome-componente></nome-componente>
+
+na classe de logica do componente que falei mais acima, se eu declarar ua variável, posso usar no html do mmeu componente usando {{nome-var}}
+
+add o valor do atributo no html: Se eu tiver por exemplo um button e quiser add um id para ele que esta na classe de logica do c ommponente, tenho que fazer isso: id = "nomeId"
+
+add uma função em um button do componente: 1-criar a função na classe logica 2-add isso no button: <button (click) = "nomeFuncao()"></button>se quiser passar um parâmetro basta usar $nomeParametro e o nome do parammetro na função
+
+Condicionais no próprio html do componente:
+
+@if(nomeUser == true){
+	<h1>Bem vindo nomeUser</h1>
+}
+
+Loops:
+
+@for(contador of listaNomes; track contador)
+
+o track é usado para redenrizar o contador e exibi-lo
+
+
+Compartilhas o arquivo de llogica do componente para ser usado em outros componentes:
+
+abrir o cmd com o arquivo de logica aberto
+escrever: ng g s localpasta/nomeClasse
+
+para usar o método dessa classe em outra:
+
+vamos supor que estamos e outra classe:
+
+private nomeVar = inject(nomeClasseDoMetodo);
