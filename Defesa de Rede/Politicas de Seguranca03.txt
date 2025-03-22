@@ -1,0 +1,7 @@
+Politicas de Seguranca
+
+As politicas de seguranca sao usadas para informar os funcionarios e outros dos requisitos para a protecao dos ativos de tecnologia e informmacao. 
+
+Um dos componentes mais conhecidos da politica de seguranca é o AUP, que define o que os funcionarios podem fazer ou nao nos componentes da empresa.
+
+Politica de seguranca BYOD. Algumas empresas abrigam este esquema, onde os funcionarios podem trazer  seu proprio equipamento para realizar tarefas, porem os funcionarios devem concordar com os requisitos que este dispositivo devve ter.

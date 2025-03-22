@@ -1,0 +1,114 @@
+Curso Defesa de rede
+
+Introdução
+
+1.1.1 Ativos, Vulnerabilidades e ameaças
+
+Os analistas de segurança cibernética devem estar sempre preparados para qualquer ataque, por isso devem primeiro identificar:
+
+Ativos: Qualquer coisa de valor para a empresa, servidores, dispositivos e o mais importante, os dados.
+Vulnerabilidades: Uma fraqueza ou seu desing em um sistema que pode permitir a entrada por umm agente de ameaça.
+Ameacas: Qualquer perigo em potencial para um ativo.
+
+1.1.2 Identificar ativos
+
+Os ativos são a superfície dos ataques, por isso devem ser protegidods quanto ao nível; de proteção. A empresa também deve identificar onde guardar estes ativos para que fiquem bem protegidos e como o acesso ganha essas informações.
+
+1.1.3 Classificação dos ativos
+
+De acordo comm a informação, o dado deve receber um tttrattammento especial, poremm, este ttratamentto deve ser rotulado pelo preeco da informação, confidencialidade e importância.
+
+
+Etapas de identificação e classificascao de ativos
+
+Etapa 1
+Determinar a categoria de identificação de ativos adequada:
+
+Ativos de informações
+Ativos de software
+Ativos físicos
+Serviços
+
+Etapa 2
+Estabeleça a responsabilização, identificando o proprietário de todos os ativos de informações e de softwares de aplicativos:
+
+Identificar o proprietário de todos os ativos de informações
+Identificar o proprietário de todo o software de aplicação
+
+Etapa 3
+Determinar os critérios de classificação:
+
+Confidencialidade
+Valor
+Tempo
+Direitos de acesso
+Destruição
+
+Etapa 4
+Implemente um esquema de classificação:
+
+Adotar uma maneira uniforme de identificação de informações para assegurar a proteção uniforme
+
+
+Ciclo de vida do ativo:
+
+
+Aquisição
+A empresa compra os ativos de acordo com as necessidades identificadas nos dados coletados para justificar a compra.
+
+O ativo é adicionado ao inventário da empresa.
+
+Implantação
+O ativo é montado e inspecionado para verificar se há falhas ou outros problemas. A equipe realiza testes e instala tags ou códigos de barras para fins de rastreamento.
+
+O ativo passa do inventário para o em uso.
+
+Utilização
+Essa é a fase mais longa do ciclo. O desempenho do ativo é verificado continuamente. Atualizações, correções de patches, compras de novas licenças e auditorias de conformidade fazem parte do estágio de utilização.
+
+Manutenção
+A manutenção ajuda a prolongar a vida produtiva de um ativo. Os funcionários podem modificar ou atualizar o recurso.
+
+Eliminação
+Ao fim da vida produtiva do ativo, ele deve ser descartado. Todos os dados devem ser apagados do recurso. O descarte pode incluir a desmontagem de um ativo para peças. Quaisquer peças que possam causar riscos ambientais devem ser descartadas de acordo com as diretrizes locais.
+
+
+1.1.4 Identifique vulnerabilidades
+A identificação de ameaças fornece a uma organização uma lista de prováveis ameaças para um ambiente específico. Ao identificar ameaças, é importante fazer várias perguntas:
+
+Quais são as possíveis vulnerabilidades de um sistema?
+Quem pode querer explorar essas vulnerabilidades para acessar ativos de informações específicos?
+Quais são as consequências se as vulnerabilidades do sistema forem exploradas e os ativos forem perdidos?
+
+
+Em um sistema feito no CiscoTracker há três importantes elementos: um roteados R1, um Firewall e outro roteador R2.
+
+Roteador de borda - A primeira linha de defesa é conhecida como um roteador de borda (R1 na figura). O roteador de borda tem um conjunto de regras especificando qual tráfego ele permite ou nega. Ele passa todas as conexões que se destinam à LAN interna para o firewall.
+Firewall - A segunda linha de defesa é o firewall. O firewall é um dispositivo de ponto de verificação que executa filtragem adicional e rastreia o estado das conexões. Ele nega o início de conexões de redes externas (não confiáveis) para a rede interna (confiável), enquanto permite que usuários internos estabeleçam conexões bidirecionais com as redes não confiáveis. Ele também pode executar autenticação de usuário (proxy de autenticação) para conceder aos usuários remotos externos acesso a recursos de rede interna.
+Roteador interno - Outra linha de defesa é o roteador interno (R2 na figura). Ele pode aplicar regras de filtragem finais no tráfego antes de ser encaminhado para seu destino.
+
+Roteadores e Fiewalls não são os únicos dispositivos usados para uma defesa profunda contra ameaças, há também IPSs(Intrusion Preventtion Systems) AMP, serviços de segurança de inputs da web e ooutros.
+
+Uma analogia para entender um método de segurança de profundidade é o Security Onion(Cebola de seguranca), onde sabemos que a cebola tem diversas camadas, e cada cammada seria uma cammmada de proteção que o invasor teria que passar. Exemplo:
+
+Firewall
+Intrusion Prevention Systems (IPS)
+Filtragem de conteúdo
+Autenticação, Autorização, and Contabilidade (AAA)
+Dispositivos endurecidos
+
+
+
+Estrategias de defesas:
+
+Sobreposição - Aumentar as camadas de defesa
+
+Limitação - Limitar o acesso dos usuarios
+
+Diversidade - Diversidficar os mmetodos de defesa
+
+Ofuscação - Não deixar dados a mostra ou brechas que podem comprometer
+
+Simplicidade - Criar sistemas simples para os devs, porem complexos de invadir.
+
+

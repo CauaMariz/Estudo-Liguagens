@@ -1,0 +1,27 @@
+Aula 02 Gerenciamento de operações de segurança cibernética
+
+Arquivos de log: Umm arquivo log registra todos os acontecimentos. Exemplo:
+O user tenta logar mas não consegue, exibindo umm erro.
+
+Com o tempo, estes arquivos vao	ao aumentando no sistema, por isso a empresa deve gerenciar estes arquivos:
+
+Gerando arquivos de log
+Transmissão de arquivos de log
+Armazenamento de arquivos de log
+Análise de dados
+Descartando dados de log
+
+Analisadores de protocolo: Os packet analyzers interceptam e registram o trafego de rede. O packet analyzer captura cada pacote, mostra os valores de vários campos no pacote e analisa o conteúdo. Um sniffer pode capturar o tráfego em redes com e sem fio.
+
+Packet analyzers executam as seguintes funções:
+
+Log de tráfego
+Análise de problemas de rede
+Detecção de uso indevido da rede
+Detecção de tentativas de invasão da rede
+Isolamento do sistema explorado
+
+Poliicas, regulamentos e padrões de segurança
+
+Politica de negócios:
+Politicas de negócios são as deretrizzzes da empresa, os limites de segurança dela, onde se houver u dia que essas diretrizes são infrigidas, pode haver uma violação de segurança.
