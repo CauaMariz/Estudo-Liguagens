@@ -1,0 +1,18 @@
+Criando um DB e implementando no eléctron
+
+após dar os comandos npm init e npm install electron --save-dev
+criar os arquivos main.js e preload.js
+instalar o sequelize: npm install --save sequelize
+instalar o mysql2: npm install --save mysql2
+instalar o sequelize cliente: npm install --save-dev sequelize-cli
+dar o comando npx sequelize-cli init
+
+*na pasta config no arquivo config.json, existe algumas configurações do DB. No "database": "" é onde fica o nome do banco de dados do projeto
+
+dar o comando: npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
+
+*esse comando acima é para criar a nossa tabela
+a parte --name User é o nome da tabela
+o firstName: string e os outros são os atributos
+pode mudar o nome de cada um, tanto dos atributos quanto do nome da tabela
+
